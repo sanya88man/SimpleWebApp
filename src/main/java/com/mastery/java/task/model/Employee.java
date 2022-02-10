@@ -1,7 +1,12 @@
-package com.mastery.java.task.dto;
+package com.mastery.java.task.model;
 
-import java.util.Objects;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class Employee {
     private Long employeeId;
     private String firstName;
@@ -11,7 +16,7 @@ public class Employee {
     private Gender gender;
     private String dateOfBirth;
 
-    public Employee() {}
+/*    public Employee() {}
 
     public Employee(Long employeeId, String firstName, String lastName, Long departmentId, String jobTitle, Gender gender, String dateOfBirth) {
         this.employeeId = employeeId;
@@ -112,5 +117,5 @@ public class Employee {
 
     public void setDateOfBirth(String dateOfBirth) {
         this.dateOfBirth = dateOfBirth;
-    }
+    }*/
 }

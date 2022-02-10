@@ -1,6 +1,6 @@
-insert into employee (employee_id, first_name, last_name, department_id,
+insert into employee (first_name, last_name, department_id,
                       job_title, gender, date_of_birth)
-values (1, 'Alex', 'Martysiuk', 3, 'Software engineer', 'MALE', '29/07/2000');
+values ('Alex', 'Martysiuk', 3, 'Software engineer', 'MALE', '29/07/2000');
 
 insert into employee (first_name, last_name, department_id,
                       job_title, gender, date_of_birth)

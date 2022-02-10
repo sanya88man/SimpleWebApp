@@ -1,10 +1,10 @@
-package com.mastery.java.task.dao;
+package com.mastery.java.task.repository;
 
-import com.mastery.java.task.dto.Employee;
+import com.mastery.java.task.model.Employee;
 
 import java.util.List;
 
-public interface EmployeeDao {
+public interface EmployeeRepo {
     Employee findById(Long id);
 
     List<Employee> findAll();

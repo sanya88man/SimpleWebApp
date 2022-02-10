@@ -1,6 +1,6 @@
-package com.mastery.java.task.rest;
+package com.mastery.java.task.controller;
 
-import com.mastery.java.task.dto.Employee;
+import com.mastery.java.task.model.Employee;
 import com.mastery.java.task.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
